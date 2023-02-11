@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run lint",
-    "lint": "npx eslint **/*.js"
+    "lint": "npx eslint **/*.js",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.6.0",
+    "nodemon": "^2.0.20",
     "prettier": "^2.8.4"
   }
 }
